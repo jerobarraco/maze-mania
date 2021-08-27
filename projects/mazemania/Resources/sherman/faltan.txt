@@ -1,0 +1,87 @@
+﻿Lo más importante es el item de puntos y los botones de los modos.
+
+About:
+
+General
+	- Background para todas las escenas tiene tamaño de 1280x1280px (estos te faltan cambiar)
+	- Nueva escena: Intro
+        - Si querés algún efecto para el logo, eso se anima como si fueran dos capas de photoshop y la 2da capa se le va poniendo opacidad hasta que llega a 100% sobre la otra. la imagen de efecto se llama logo_glow. 
+
+Botones
+	- Todos los botones deben ser de 64x64
+		Por las dudas, si estábas trabajando con el tamaño de 80x80, hacelos en ese tamaño nomás y nosotros lo achicamos a 64x64 después.
+	- Faltan botones:
+		Pantalla About:
+			1) Moongate
+			2) Graficos
+			3) Música
+		Pantalla Inicio (start_menu):
+			4) Help (hay otro boton de ayuda en el menú de pausa (game_over), fijate si querés usar el mismo o usar otro, a tu gusto).
+			5) Back (por ahora es un clon del "replay" con un tinte rojo)
+		Pantalla Dev-Menu:
+			6) Cambio de skin
+			7) Botón "+" (suma en el contador)
+			8) Botón "-" (resta en un contador)
+			- modos:
+			(En el skin original tienen una imágen para cada estado (activado/desactivado)
+				9) Speed
+				10) Max Points
+				11) Points
+				12) Race
+				13) Time
+				14) Boost
+				15) Auto Doors
+				16) Swarm
+				17) Bombs
+				18) Wave
+				 (carrera, bombas, multividas, tiempo, aceleradores, velocidades, puertas automáticas, puntos, máximos puntos, y wave (nivel))
+
+Labels:
+	La mayoría de los labels tienen la animación de glow. Esto lo hacemos con 2 imágenes: la original (base) y la base con algún efecto (glow por ahora),
+	y lo hacemos variando el valor de transparencia (como las capas de photoshop) para que transicione de un efecto al otro y viceversa.
+	Entonces da la impresión de que el label se prende y apaga. Te lo cuento por si se te ocurre otro efecto usando ese cambio de transparencia y
+	quieras cambiar el glow por otra cosa.
+	Pantalla Game OVer:
+		1) "Finished!" (en pantalla de Game Over): Es como el de "winner", "cleared". Aparece cuando se gana el wave nro 30.
+		2) "Finished!" con glow.
+	Pantalla Dev-Menu:
+		3) "Custom Game" base.
+		4) "Custom Game" con glow.
+	Pantalla Tutoriales:
+		5) "How to play" base.
+		6) "How to play" con glow.
+
+Puertas:
+	Hubo un problema con las puertas, que no coincidían las esquinas. Se cambió el ancho de las puertas y el tamaño del corner.
+	- El tamaño de las puertas (y el wall tmb) ahora es de 64x120.
+	- El tamaño del corner es de 28x28.
+
+Items:
+	- Falta item de Puntos (por ahora es una fruta pero vos metele lo que te parezca que pegue con tu diseño.)
+	- Los timers pueden ser de la cantidad de cuadros que vos quieras. Por ahora dejamos una sola vuelta para que se vea mejor, si vos querés después cambiarlo o agregarle otra vuelta completa hacelo, pero no es imprescindible.
+
+
+=========================================		
+Estas cosas son opcionales. Si querés pasanos hasta acá y después hacés esto así vamos teniendo para mostrar.
+
+fonts: 
+Fuente bitmap
+    no es necesario que la cambies, a menos que sientas la necesidad.
+    Estamos usando Emulogic como base.
+    podes pintarla diréctamente arriba con el photoshop o crearla con el programa BMFont
+  
+
+tuto:
+    los graficos ahí son graficos auxiliares para los tutoriales
+    - Aca podés hacer 2 cosas. O te haces los graficos que vos quieras y nosotros le hacemos algunas animaciones básicas, o reemplazas los que ya están.
+    - el title es el titulo que sale en la pantalla. tambien tiene la animacion de los demás (la capa con efecto que sube y baja de opacidad).
+    
+    
+El sistema de animación que usamos es uno que hice yo, muy básico. los archivos .anim definen animaciones muy básicas, con una imágen por línea y va dando las propiedades como keyframes.
+
+Las cosas que se pueden animar son: alpha, escala (x e y al mismo tiempo), rotación y posición.
+Más o menos es como un flash muuuy básico. Si vos después querés hacerte una animación hacela de última la hacés en un formato que te guste (tipo avi o gif o flash) y yo la traduzco al sistema feo este.
+
+nosotros queríamos hacer algo como esto http://youtu.be/BgcrIlFsyFM?t=24s (de 0:24 a 1:04)
+lo que no tenemos es clipping (máscaras) ni tintes ni escalas disparejas (por ejemplo mas escalado en x que y (deformado)).
+Te paso el ejecutable para que lo puedas probar diréctamente desde ahí.

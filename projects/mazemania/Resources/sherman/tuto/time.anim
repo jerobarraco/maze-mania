@@ -1,0 +1,14 @@
+#if a line starts with # is a comment buddy
+#line: texture,loop(0|1),frame1,frame2,frame_n
+#frame: sound_fx,duration,x,y,s,a,r
+#1F) TIMER
+tuto/frame4.png,0,-,0.0,0,-20,1.0,0.0,0.0,-,1.0,0, 0,1.0,1.0,0.0
+items/timer_0.png,0,-,0.0,0,0,1.0,0.0,0.0,-,1.0, 0, 0,1.0,1.0,0.0,-,1.0, 0, 0,1.0,0.0,0.0
+items/timer_1.png,0,-,1.0,0,0,1.0,0.0,0.0,sounds/snd_timer.wav,1.0, 0, 0,1.0,1.0,0.0,-,1.0, 0, 0,1.0,0.0,0.0
+items/timer_2.png,0,-,2.0,0,0,1.0,0.0,0.0,sounds/snd_timer.wav,1.0, 0, 0,1.0,1.0,0.0,-,1.0, 0, 0,1.0,0.0,0.0
+items/timer_3.png,0,-,3.0,0,0,1.0,0.0,0.0,sounds/snd_timer.wav,1.0, 0, 0,1.0,1.0,0.0,-,1.0, 0, 0,1.0,0.0,0.0
+items/timer_4.png,0,-,4.0,0,0,1.0,0.0,0.0,sounds/snd_timer.wav,1.0, 0, 0,1.0,1.0,0.0,-,1.0, 0, 0,1.0,0.0,0.0
+items/timer_5.png,0,-,5.0,0,0,1.0,0.0,0.0,sounds/snd_timer.wav,1.0, 0, 0,1.0,1.0,0.0,-,1.0, 0, 0,1.0,0.0,0.0
+items/timer_6.png,0,-,6.0,0,0,1.0,0.0,0.0,sounds/snd_timer.wav,1.0, 0, 0,1.0,1.0,0.0,-,1.0, 0,-50,1.0,1.0,0.0
+#2F) WINNER
+game_over/timeout.png,0,-,7.50,0, 70,1.0,0.0,0.0,sounds/snd_timeout.wav,0.5,0, 30,1.0,1.0,0.0

@@ -1,0 +1,9 @@
+ 
+en el manifest pone
+Application-Requires-System: BlackBerry 10
+tiene que ir
+Application-Requires-System: Tablet OS/2.1.0.0
+
+usar el appdescriptor del BlackBerry_pb que es compatible con la version 10 (tiene que llamarse bar-descriptor.xml) (en linux es un link simbolico)
+pero primero editar las secciones que no se van a usar!!!!
+ejecutar pbpackage.sh

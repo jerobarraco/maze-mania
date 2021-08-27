@@ -1,0 +1,6 @@
+#if a line starts with # is a comment buddy
+#line: texture,loop(0|1),frame1,frame2,frame_n
+#frame: sound_fx,duration,x,y,s,a,r
+#
+#init			delay				right-scale down		center-scale down			left-scale up		center-scale up		wait
+pjs/p4.png,1,-,2.0,0,0,1.2,1.0,0.0,-,0.4,-100,0,1.0,1.0,0.0,-,0.8,0,0,0.5,1.0,0.0,-,0.8,100,0,1.0,1.0,0.0,-,0.4,0,0,1.2,1.0,0.0,-,1.0,0,0,1.2,1.0,0.0

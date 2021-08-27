@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\menu">
+      <UniqueIdentifier>{967a0aba-4e20-443c-a11f-af86a355b50e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\items">
+      <UniqueIdentifier>{854f13aa-6fd0-4361-9771-8ee5eced1209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scenes">
+      <UniqueIdentifier>{a43155e1-4db0-4c1f-b4d1-b88666da93ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\utils">
+      <UniqueIdentifier>{cd8fca05-0712-46c1-bc30-40270e7ed51d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\anim">
+      <UniqueIdentifier>{77b24600-7221-4b9f-8960-cc5e0d207f82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\menu\BtnPause.cpp">
+      <Filter>Classes\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\menu\BtnUnpause.cpp">
+      <Filter>Classes\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Board.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DevMenu.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Door.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameOverMenu.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Player.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\StartMenu.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TouchSprite.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\items\Bomb.cpp">
+      <Filter>Classes\items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\items\GameTimer.cpp">
+      <Filter>Classes\items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\items\Goal.cpp">
+      <Filter>Classes\items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\items\Item.cpp">
+      <Filter>Classes\items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\items\Point.cpp">
+      <Filter>Classes\items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\items\Speed.cpp">
+      <Filter>Classes\items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\items\wavetimer.cpp">
+      <Filter>Classes\items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scenes\about.cpp">
+      <Filter>Classes\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scenes\exit.cpp">
+      <Filter>Classes\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scenes\game.cpp">
+      <Filter>Classes\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scenes\intro.cpp">
+      <Filter>Classes\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scenes\loader.cpp">
+      <Filter>Classes\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scenes\main_scene.cpp">
+      <Filter>Classes\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\utils\Files.cpp">
+      <Filter>Classes\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\utils\Utils.cpp">
+      <Filter>Classes\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\utils\events.cpp">
+      <Filter>Classes\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\menu\spinbox.cpp">
+      <Filter>Classes\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\menu\btnback.cpp">
+      <Filter>Classes\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\menu\btnevent.cpp">
+      <Filter>Classes\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\menu\btnurl.cpp">
+      <Filter>Classes\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\menu\overlay.cpp">
+      <Filter>Classes\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\anim\animation.cpp">
+      <Filter>Classes\anim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scenes\help.cpp">
+      <Filter>Classes\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\anim\aitem.cpp">
+      <Filter>Classes\anim</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\menu\BtnPause.h">
+      <Filter>Classes\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\menu\BtnUnpause.h">
+      <Filter>Classes\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppMacros.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Board.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DevMenu.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Door.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameOverMenu.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\StartMenu.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TouchSprite.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\items\Bomb.h">
+      <Filter>Classes\items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\items\GameTimer.h">
+      <Filter>Classes\items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\items\Goal.h">
+      <Filter>Classes\items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\items\Item.h">
+      <Filter>Classes\items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\items\Point.h">
+      <Filter>Classes\items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\items\Speed.h">
+      <Filter>Classes\items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\items\wavetimer.h">
+      <Filter>Classes\items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scenes\about.h">
+      <Filter>Classes\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scenes\exit.h">
+      <Filter>Classes\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scenes\game.h">
+      <Filter>Classes\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scenes\intro.h">
+      <Filter>Classes\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scenes\loader.h">
+      <Filter>Classes\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scenes\main_scene.h">
+      <Filter>Classes\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utils\events.h">
+      <Filter>Classes\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utils\Files.h">
+      <Filter>Classes\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utils\Utils.h">
+      <Filter>Classes\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\menu\spinbox.h">
+      <Filter>Classes\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\menu\btnback.h">
+      <Filter>Classes\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\menu\btnevent.h">
+      <Filter>Classes\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\menu\btnurl.h">
+      <Filter>Classes\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\menu\overlay.h">
+      <Filter>Classes\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\anim\animation.h">
+      <Filter>Classes\anim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scenes\help.h">
+      <Filter>Classes\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\anim\aitem.h">
+      <Filter>Classes\anim</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

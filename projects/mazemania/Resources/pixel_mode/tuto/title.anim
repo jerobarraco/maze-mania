@@ -1,0 +1,10 @@
+#if a line starts with # is a comment buddy
+#line: texture,loop(0|1),frame1,frame2,frame_n
+#frame: sound_fx,duration,x,y,s,a,r
+
+#init									fade in					dissapears
+tuto/title.png,0,-,0.0,0,-10,1.0,0.0,0.0,-,1.0,0,-10,1.0,1.0,0.0,-,0.0,0,-10,1.0,0.0,0.0
+#Glow and move
+#init				down						down				center					up					center					down
+tuto/title.png,1,-,1.0,0,-10,1.0,0.0,0.0,-,0.0,0,-10,1.0,1.0,0.0,-,3.0,0,0,1.0,1.0,0.0,-,3.0,0,10,1.0,1.0,0.0,-,3.0,0,0,1.0,1.0,0.0,-,3.0,0,-10,1.0,1.0,0.0
+tuto/title_glow.png,1,-,1.0,0,-10,1.0,0.0,0.0,-,0.0,0,-10,1.0,0.0,0.0,-,3.0,0,0,1.0,1.0,0.0,-,3.0,0,10,1.0,0.0,0.0,-,3.0,0,0,1.0,1.0,0.0,-,3.0,0,-10,1.0,0.0,0.0
